@@ -16,18 +16,9 @@ the amount of time in milliseconds that was calculated for the key value.
 - Some notes:
   1. To find space size I just used 2^(bit size)
   2. To generate random key `ctypto/rand` library was used
-  3. To brute force generated key was used a simple loop that adding 1 if the number is not we are looking for
-- Screenshots:
-  1. 8-bit
-  2. 16-bit
-  3. 32-bit
-  4. 64-bit
-  5. 128-bit
-  6. 256-bit
-  7. 512-bit
-  8. 1024-bit 
-  9. 2048-bit
-  10. 4096-bit
+  3. To brute force generated key used a simple loop that adding 1 if the number is not we are looking for.
+     But it took too much time to calculate the numbers, I left it to the whole nigh and it can't found even 64-bit size.
+  ![изображение](https://github.com/mhrynenko/cryptography_course/assets/108219165/70a6ac17-5f15-4d31-84a7-5be24b053e1a)
 
 ## Note
 1. As developing language was chosen `Golang`
