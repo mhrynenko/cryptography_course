@@ -52,7 +52,7 @@
     ```shell
     cd cryptography_course/hex_int
     ```
-5. Run the code
+5. Run tests
     ```shell
-    go run main.go
+    go test
     ```
