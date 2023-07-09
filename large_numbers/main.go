@@ -3,10 +3,11 @@ package main
 import (
 	"crypto/rand"
 	"fmt"
-	"github.com/pkg/errors"
 	"math/big"
 	"strings"
 	"time"
+
+	"github.com/pkg/errors"
 )
 
 var bitSizes = []int64{8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096}
