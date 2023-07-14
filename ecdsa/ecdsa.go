@@ -31,9 +31,6 @@ type Signature struct {
 	S *big.Int
 }
 
-// var Curve elliptic.Curve = secp256k1.S256()
-//var Curve elliptic.Curve = elliptic.P256()
-
 func GeneratePrivateKey(curve elliptic.Curve) (*PrivateKey, error) {
 	d, err := rand.Int(rand.Reader, curve.Params().N)
 	if err != nil {
@@ -122,7 +119,6 @@ func Verify(curve elliptic.Curve, msg []byte, r, s *big.Int, Q PublicKey) (bool,
 	// H(m)
 	msgHash := sha256.Compute(msg)
 	h := new(big.Int).SetBytes(msgHash[:])
-	//h.Mod(h, curve.Params().N)
 
 	//pow(s, -1)
 	sInverse := new(big.Int).ModInverse(s, curve.Params().N)
