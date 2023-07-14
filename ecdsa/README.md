@@ -1,4 +1,4 @@
-# SHA256
+# ECDSA
 
 ## Task
 1. Implement digital signature algorithm
@@ -7,7 +7,7 @@
 
 - Some notes:
     1. <b>ECDSA</b> was chosen.
-    2. <i>Why?</i> It is still used in big systems and I'd like to have some knowledge of how it
+    2. <i>Why?</i> It is widely used in big systems (e.g. Bitcoin) and I'd like to have some knowledge of how it
     is working under the hood.
     3. As documentation, I used this [paper](https://datatracker.ietf.org/doc/html/rfc6979#appendix-A.2.5) 
     and document from task
