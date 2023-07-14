@@ -1,4 +1,4 @@
-# SHA256
+# ECDSA
 
 ## Task
 1. Implement digital signature algorithm
